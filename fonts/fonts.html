@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+    <style>
+        @font-face {
+            font-family: "Tagu";
+            src: url(./MyanmarTagu.ttf);
+        }
+        h2,p{
+            font-family: Tagu,Kanit;
+        }
+        @font-face {
+            font-family: "Kanit";
+            src: url(./Kanit-Regular.ttf);
+        }
+        h2{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+        .menu-btn{
+            display: inline-block;
+            position: relative;
+        }
+        .menu-items{
+            display: none;
+            border: 1px solid black;
+            position: absolute;
+            left: 2;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            z-index: 1;
+            margin: 2px;
+        }
+        li{
+            list-style-type:none;
+        }
+        .menu:hover .menu-items{
+            display: block;
+        }
+        .menu-link{
+            text-decoration: none;
+            color: black;
+        }
+        .menu-link:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2> ဟယ်လို</h2>
+    <p>Hi Everyone! I am Lauren</p>
+    <div class="menu">
+        <button class="menu-btn">Menu </button>
+        <ul class="menu-items">
+            <li> <a href="#" class="menu-link">European Food</a> </li>
+            <li> <a href="#" class="menu-link">Chinese Food</a> </li>
+            <li> <a href="#" class="menu-link">Indian Food</a> </li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2DTransform</title>
+    <style>
+        .box{
+            width: 100%;
+            height: 500px;
+            border: 3px solid black;
+            margin: 20px;
+            overflow: hidden;
+            padding: 100px;
+        }
+        /* transform: translateX(-90%) ;
+        transform: scale(0.8);
+        transform: skewX(20deg);
+        transform: rotateZ(20deg);
+        transition: 1s; */
+        img{
+            width: 300px;
+            position: absolute;
+            box-shadow: 0 0 15px;
+            }
+        /* img:hover{
+            transform: translate(0);
+        }
+        .img3{
+            transform: rotate(0) ;
+        }
+        .img2{
+            transform: rotate(20deg);
+        }
+        .img1{
+            transform: rotate(40deg);
+        } */
+        img:nth-child(1){
+            transform: rotate(0) ;
+        }
+        img:nth-child(2){
+            transform: rotate(20deg) ;
+        }
+        img:nth-child(3){
+            transform: rotate(40deg) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <img class="img1" src="https://i.ytimg.com/vi/TF0Y8JImlYQ/maxresdefault.jpg" alt="">
+    <img class="img2" src="https://i.ytimg.com/vi/TF0Y8JImlYQ/maxresdefault.jpg" alt="">
+    <img class="img3" src="https://i.ytimg.com/vi/TF0Y8JImlYQ/maxresdefault.jpg" alt="">
+    </div>
+</body>
+</html>
