@@ -1,0 +1,24 @@
+{
+  "name": "htmlcssadvance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kukulauren/htmlCssadvance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kukulauren/htmlCssadvance/issues"
+  },
+  "homepage": "https://github.com/kukulauren/htmlCssadvance#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "imagehover.css": "^2.0.0"
+  },
+  "description": ""
+}
