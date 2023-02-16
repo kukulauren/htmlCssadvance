@@ -25,6 +25,8 @@ $spacers: (
   5: $spacer * 3,
   6: $spacer *4,
   7: $spacer *5,
+  8: $spacer *6,
+  9: $spacer *7,
 );
 // custom scss 
 .navbar-brand-logo{
@@ -62,8 +64,42 @@ body{
 }
 .spinach_img{
     height: 3rem;
-    transform: rotate(45deg) translateX(100px);
+    transform: rotate(45deg) ;
 }
+.news_spinach_img{
+    height: 4rem;
+    transform: rotate(18deg) translateX(333px);
+}
+#home{
+    // background: url(../img/leaf-branch-2.png) no-repeat top left, url(../img/leaf-branch-4.png) no-repeat bottom right;
+    position: relative;
+}
+#home::before{
+    content: url(../img/leaf-branch-2.png);
+    opacity: 20%;
+    position: absolute;
+    transform: rotate(93deg) translateX(-20px) translateY(50px);
+    z-index: -1;
 
-
+}
+#home::after{
+    content: url(../img/leaf-branch-4.png);
+    opacity: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(124px) rotate(337deg);
+    z-index: -1;
+};
+.new_letter{
+    border-radius: 2rem;
+};
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@include media-breakpoint-down(md) {
+    .new_letter{
+        border-radius: 0;
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+    };
+};
