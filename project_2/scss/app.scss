@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Serif+Pro&display=swap');
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Source Serif Pro', serif;
+.navbar-brand svg{
+    width: 2rem;
+};
+li.content,p.content{
+    font-family:'Source Serif Pro', serif;
+    line-height: 2rem;
+}
+.post_content{
+    font-family:'Source Serif Pro', serif;
+    color: rgb(56, 56, 56);
+    overflow:hidden;
+    line-height: 2rem;
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+.visit_site a{
+    color: rgb(129, 129, 129);
+}
+.visit_site a:hover{
+    color: black;
+}
+.nav-item{
+    font-size: 13px;
+}
+nav input{
+    font-size: 13px;
+}
+nav input:focus-visible {
+    outline: none;
+    outline-offset: none;
+}
+.nav-item img{
+    height: 25px;
+    width: 25px;
+}
+a.nav-link.tab.active{
+    background-color: transparent;
+    font-weight: 400;
+    color: black;
+    border-bottom: 0.5px solid rgb(117, 117, 117, 1);
+    border-radius: 0px;
+}
+a.nav-link.tab{
+    font-weight: 400;
+    color: rgb(115, 115, 115);
+}
+a.nav-link.tab:hover{
+    color: green;
+}
+a.nav-link.tab:focus{
+    font-weight: 400;
+    color: black;
+    border-bottom: 0.8px solid rgb(117, 117, 117, 1);
+    border-radius: 0px;
+}
+.user_img{
+    height: 24px;
+    border-radius: 50%;
+}
+.detail_user_img{
+    height:40px;
+    border-radius: 50%;
+}
+.follow_btn{
+    font-size: 12px;
+    padding: 3px 9px;
+    background-color: green;
+    border: none;
+    color: white;
+   
+}
+.social_icon{
+    text-decoration: none;
+    color:rgb(150, 150, 150);
+    margin-right: 0.7rem;
+}
+.social_button{
+    border: none;
+    background-color: transparent;
+    transform: rotate(135deg);
+}
+.bookmark_button{
+    border: none;
+    background-color: transparent;
+}
+.user_name{
+    color: rgb(85, 85, 85);
+    font-size: 15px;
+    font-weight: bold;
+}
+.user_date{
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+}
+.article_img{
+    height: 112px;
+    width: 112px;
+}
+.tag_icon{
+    transform: rotate(90deg);
+}
+.articles{
+    border-bottom: 0.8px solid rgb(117, 117, 117, 1);
+    padding-bottom: 1.5rem;
+}
+div.blog{
+    padding-right: 5rem;
+}
+div.user_photos img{
+    border-radius: 50%;
+    margin-right: -5px;
+    border: 1px solid white;
+    
+}
+div.aside{
+    border-left: 0.8px solid rgb(117, 117, 117, 1);
+    padding-left: 2rem;
+}
+button.btn.post_category{
+    font-size: 13px;
+    padding: 0 10px;
+    background-color: rgb(231, 231, 231);
+}
+ul.nav.nav-pills{
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.post_timing{
+    font-size: 13px;
+    color: rgb(123, 121, 121);
+}
+$secondary:rgb(242, 242, 242);
+$primary:green;
+$navbar-nav-link-padding-x:1rem;
+$nav-link-color:rgb(215, 213, 213);
+$nav-link-font-size:small;
+$font-family-sans-serif:'Source Serif Pro', serif;
+$font-family-base: 'Roboto', sans-serif;
+$btn-border-radius-sm:2rem;
+$btn-padding-x-sm:1rem;
+
+.btn.btn-secondary{
+    font-size: 13px;
+    padding: 5px 15px;
+    color: rgb(58, 58, 58);
+    margin-top: 10px;
+}
+.btn.btn-secondary:hover{
+    background-color:rgb(203, 203, 203);
+}
+.writer_img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+p.bio{
+    color: rgb(129, 129, 129);
+}
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    // xxl: 1320px
+  );
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
